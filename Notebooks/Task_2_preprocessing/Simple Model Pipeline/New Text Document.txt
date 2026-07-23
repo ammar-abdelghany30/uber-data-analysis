@@ -1,0 +1,40 @@
+
+GradientBoostingRegressor
+========================================
+Outlier Report
+========================================
+Outlier values           : 10060
+Percentage of values     : 2.08%
+Rows with outliers       : 6742
+Percentage of rows       : 6.99%
+========================================
+MAE:  2.1122
+RMSE: 4.0049
+R²:   0.8693
+
+LinearREG
+========================================
+Outlier Report
+========================================
+Outlier values           : 44025
+Percentage of values     : 7.60%
+Rows with outliers       : 38284
+Percentage of rows       : 39.67%
+========================================
+Baseline MAE: 2.694782343688186
+Baseline RMSE: 5.10050725715256
+Baseline R²: 0.7879960391304457
+
+
+XGBRegressor
+========================================
+Outlier Report
+========================================
+Outlier values           : 10060
+Percentage of values     : 2.08%
+Rows with outliers       : 6742
+Percentage of rows       : 6.99%
+========================================
+MAE:  2.1255
+RMSE: 4.0450
+R²:   0.8667

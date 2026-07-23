@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Prediction Result</title>
+</head>
+<body>
+    <h1>Predicted Fare: ${{ prediction }}</h1>
+
+    <h3>Trip Details:</h3>
+    <ul>
+    {% for key, value in inputs.items() %}
+        <li>{{ key }}: {{ value }}</li>
+    {% endfor %}
+    </ul>
+
+    <a href="/">Make Another Prediction</a>
+</body>
+</html>
